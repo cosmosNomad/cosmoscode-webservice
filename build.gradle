@@ -24,6 +24,9 @@ dependencies {
     // spring-session-jdbc
     implementation('org.springframework.session:spring-session-jdbc')
 
+    // spring-security-test
+    implementation("org.springframework.security:spring-security-test")
+
     // lombok
     implementation('org.projectlombok:lombok')
     annotationProcessor('org.projectlombok:lombok')
