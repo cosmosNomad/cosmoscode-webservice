@@ -15,9 +15,14 @@ repositories {
 
 dependencies {
 
-    //(3)
     implementation('org.springframework.boot:spring-boot-starter-web')
     implementation('org.springframework.boot:spring-boot-starter-mustache')
+
+    // oauth
+    implementation('org.springframework.boot:spring-boot-starter-oauth2-client')
+
+    // spring-session-jdbc
+    implementation('org.springframework.session:spring-session-jdbc')
 
     // lombok
     implementation('org.projectlombok:lombok')
