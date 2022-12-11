@@ -27,6 +27,9 @@ dependencies {
     // spring-security-test
     implementation("org.springframework.security:spring-security-test")
 
+    // MariaDB driver
+    implementation("org.mariadb.jdbc:mariadb-java-client")
+
     // lombok
     implementation('org.projectlombok:lombok')
     annotationProcessor('org.projectlombok:lombok')
